@@ -41,12 +41,12 @@ However, as an overview here are some basic operations allowed (not a comprehens
 http://127.0.0.1:8000/people/
   * GET
     - returns a list of all people, defaulting to 20/page
-    - page size can be configured by adding ?page_size=<num>
-    - can filter people by name, age, or other fields by adding ?<field_name>=<foo>
-    - can search people fields by adding ?search=<baz>
-    - can order people by name, age, or other fields by adding ?ordering=<field_name>
-    - (use '-<field_name>' to reverse order)
-    - valid filter and ordering fields are: id, first_name, last_name, age, github_acct, third_grade_grad_date
+    - page size can be configured by adding `?page_size=<num>`
+    - can filter people by name, age, or other fields by adding `?<field_name>=<foo>`
+    - can search people fields by adding `?search=<baz>`
+    - can order people by name, age, or other fields by adding `?ordering=<field_name>`
+    - (use `-<field_name>` to reverse order)
+    - valid filter and ordering fields are: `id`, `first_name`, `last_name`, `age`, `github_acct`, `third_grade_grad_date`
   * POST
     - creates a new person in the registry
 
