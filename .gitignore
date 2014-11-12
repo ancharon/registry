@@ -41,3 +41,8 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+*.pyc
+registry.db
+tools/output.html
+tools/output.txt
